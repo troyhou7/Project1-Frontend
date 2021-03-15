@@ -1,0 +1,22 @@
+body {
+    padding : 10px ;
+    
+  }
+
+
+   .alert .btn-danger {
+    float: right;
+  } 
+  .alert{
+    width: 60%;
+  }
+  
+  /* .alert span {
+    line-height: 34px;
+  } */
+  
+  .alert > div:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
